@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <!-- block zoom on ios -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0"
+    />
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- TITLE -->
+    <title>Canvas Game</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- HTML BODY -->
+    <h2 id="displayScore"></h2>
+
+    <div class="canvas-container">
+      <div id="gameOver">
+        <h1 class="game-over-text">Game Over</h1>
+        <button id="playButton">Play</button>
+      </div>
+      <!-- canvas size -->
+      <canvas id="canvas">
+        Your browser does not support the HTML5 canvas tag.
+      </canvas>
+    </div>
+    <br /><br />
+    <p id="displayTutorial">
+      use Arrow Keys or WASD Keys on Desktop / Swipe on Mobile
+    </p>
+    <div class="arrow-buttons-container" align="center">
+      <button id="up">↑</button><br />
+      <button id="left">←</button>
+      <button id="down">↓</button>
+      <button id="right">→</button>
+    </div>
+
+    <!-- JS -->
+    <!-- library to handle swipe -->
+    <script src="./swiped-events.js"></script>
+    <!-- Main Code -->
+    <script src="./script.js"></script>
+  </body>
+</html>
