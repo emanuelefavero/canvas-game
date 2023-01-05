@@ -83,7 +83,7 @@ body {
 }
 
 #gameOver .game-over-text {
-  transition: 1s;
+  /* transition: 1s; */
   text-shadow: 1px 3px 1px rgba(25, 6, 61, 0.788), 3px 3px 7px rgb(141, 2, 255),
     -1px -1px 4px rgb(232, 117, 255);
   color: rgb(245, 210, 255);
