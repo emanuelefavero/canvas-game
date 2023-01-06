@@ -19,3 +19,7 @@ This is a simple game that I made with canvas, css and javascript. Grab as many 
 
 - Clone the repository
 - Open the `index.html` file in your browser
+
+## License
+
+- [MIT](LICENSE.md)
