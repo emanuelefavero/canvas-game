@@ -43,6 +43,8 @@ body {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
+
+  padding: 1rem;
 }
 
 #displayScore {
@@ -73,7 +75,7 @@ body {
 
   position: absolute;
   top: 80px;
-  left: 38px;
+  left: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -171,13 +173,13 @@ button {
   margin-bottom: 5px;
 }
 
-.arrow-buttons-container {
+/* ------------- */
+/* ARROW BUTTONS */
+/* .arrow-buttons-container {
   padding: 0, 5rem;
 
-  /* remove double tap to zoom on mobile (for the most part) */
   touch-action: manipulation;
 
-  /* remove select text feature */
   user-select: none;
   -webkit-user-select: none;
 }
@@ -203,7 +205,8 @@ button {
 .arrow-buttons-container button:active {
   color: black;
   background-color: rgb(0, 238, 255);
-}
+} */
+/* ------------- */
 
 #displayTutorial {
   font-size: 1rem;
@@ -226,5 +229,12 @@ button {
   }
   100% {
     opacity: 0;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  #gameOver {
+    /* top: 80px; */
+    left: 35px;
   }
 }

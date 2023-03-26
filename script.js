@@ -61,11 +61,13 @@ window.onload = () => {
     const left = document.getElementById('left')
     const right = document.getElementById('right')
 
+    // -------------
+    // ARROW BUTTONS
     // handle mouse virtual arrow button click
-    up.addEventListener('mousedown', () => (direction = 'up'))
-    down.addEventListener('mousedown', () => (direction = 'down'))
-    left.addEventListener('mousedown', () => (direction = 'left'))
-    right.addEventListener('mousedown', () => (direction = 'right'))
+    // up.addEventListener('mousedown', () => (direction = 'up'))
+    // down.addEventListener('mousedown', () => (direction = 'down'))
+    // left.addEventListener('mousedown', () => (direction = 'left'))
+    // right.addEventListener('mousedown', () => (direction = 'right'))
 
     // up.addEventListener('mouseup', () => (direction = 'stop'))
     // down.addEventListener('mouseup', () => (direction = 'stop'))
@@ -73,14 +75,15 @@ window.onload = () => {
     // right.addEventListener('mouseup', () => (direction = 'stop'))
 
     // handle virtual button touch input
-    up.addEventListener('touchstart', () => (direction = 'up'))
-    down.addEventListener('touchstart', () => (direction = 'down'))
-    left.addEventListener('touchstart', () => (direction = 'left'))
-    right.addEventListener('touchstart', () => (direction = 'right'))
+    // up.addEventListener('touchstart', () => (direction = 'up'))
+    // down.addEventListener('touchstart', () => (direction = 'down'))
+    // left.addEventListener('touchstart', () => (direction = 'left'))
+    // right.addEventListener('touchstart', () => (direction = 'right'))
     // up.addEventListener('touchend', () => (direction = 'stop'))
     // down.addEventListener('touchend', () => (direction = 'stop'))
     // left.addEventListener('touchend', () => (direction = 'stop'))
     // right.addEventListener('touchend', () => (direction = 'stop'))
+    // -------------
 
     // handle swipe actions on mobile (needs external library swiped-events.js)
     document.addEventListener('swiped-up', function (e) {
