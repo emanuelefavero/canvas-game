@@ -8,7 +8,7 @@ This is a simple game that I made with canvas, css and javascript. Grab as many 
 
 #### Screenshot
 
-<img src="screenshot.png" alt="screenshot" width="300">
+<img src="screenshot.jpg" alt="screenshot" width="300">
 
 ## How to play
 
